@@ -185,6 +185,31 @@ input {
 }
 
 #modalButton {
+  display: block;
+  margin: 0 auto;
+  margin-top: 1.5rem;
+  padding: 8px 20px;
+  font-size: 1.5rem;
+  color: var(--punishBackground);
+  background-color: var(--luckBackground);
+  border: 1px solid var(--punishBackground);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+#modalButton:hover {
+  color: var(--punishlight);
+  border: 1px solid var(--punishlight);
+  transform: scale(1.15);
+}
+
+#modalButton:active {
+  background-color: var(--luckBackground);
+  transform: scale(1);
+}
+
+#removeSelectedButton {
   margin-top: 1.5rem;
   padding: 10px 20px;
   font-size: 1.5rem;
@@ -196,12 +221,12 @@ input {
   transition: all 0.3s ease-in-out;
 }
 
-#modalButton:hover {
+#removeSelectedButton:hover {
   background-color: var(--punishlight);
   transform: scale(1.15);
 }
 
-#modalButton:active {
+#removeSelectedButton:active {
   background-color: var(--punishBackground);
   transform: scale(1);
 }
@@ -336,5 +361,9 @@ body.punish-mode .theme-toggle label {
 
   #namesInput {
     font-size: 1.5rem;
+  }
+  #modalButton {
+    display: inline-block;
+    margin-right: 1.5rem;
   }
 }

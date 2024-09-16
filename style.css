@@ -78,7 +78,6 @@ input {
 }
 
 /* wheel */
-
 .wheel-container {
   grid-area: wheel-container;
   justify-self: center; /* Horizontally center in the grid */

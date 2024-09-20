@@ -96,6 +96,10 @@ let myChart = new Chart(wheelCanvas, {
       },
     },
     rotation: 0, // Initialize rotation option
+    layout: {
+      padding: 0,
+      margin: 0,
+    },
   },
 });
 

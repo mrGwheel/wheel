@@ -350,8 +350,6 @@ body.punish-mode .theme-toggle label {
       45vw,
       700px
     ); /* Matches width for square aspect ratio */
-    width: 100%;
-    height: 100%;
   }
 
   .name-input h2 {
